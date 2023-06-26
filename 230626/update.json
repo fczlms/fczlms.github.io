@@ -1,16 +1,18 @@
 {
-    "backups_api": "http://css.1.json",
-    "update_apk_size": "28.9m",
-    "showKouling": "",//复制口令
-    "update_constraint": false,
-    "update_content":"1.修复部分内容闪退的问题\n2.修复失效源\n3.增加优质高清源\n3.若下载之后无法覆盖安装，说明你安装的是盗版软件\n4.本软件不含任何广告\n\n\n",   
+    "backups_api": "https://fastly.jsdelivr.net/gh/fczlms/heimao/230626/1hd.json",
+    "api":"https://up.heimao.nl/230626/1hd.json",
+    "official":"https://heimao.app",
+    "update_apk_size": "40.2m",
+    "showKouling": "",
+    "update_constraint": true,
+    "update_content":"1.紧急修复若干播放问题和闪退问题\n2.本软件不含任何广告\n\n\n",   
     
-    "update_url": "https://testin-files.oss-cn-hangzhou.aliyuncs.com/public/app/2023/2/28/5659540/1869954/cc68af6d-16b4-4879-af1a-b62df2fac7af.apk",
-    "version_code":11,
-    "version_name":"1.1.9",
+    "update_url": "https://testin-files.oss-cn-hangzhou.aliyuncs.com/public/app/2023/6/25/5659540/1869954/d54a7826-6141-4cc5-b068-ffb7b09fa6bb.apk",
+    "version_code":21,
+    "version_name":"2.0.1",
     "pan_url":"https://wwt.lanzouw.com/yingshiku",
-	
-	"banner": [
+    	"banner": [
+    	    /*首页banner
         {
             "bannerUrl": "https://wwt.lanzouw.com/yingshiku",
             "bannerImg": "https://pic.imgdb.cn/item/62b97fa81d64b0706616c5c4.jpg"
@@ -19,8 +21,11 @@
             "bannerUrl": "https://wwt.lanzouw.com/yingshiku",
             "bannerImg": "https://pic.imgdb.cn/item/62b97fa81d64b0706616c5c4.jpg"
         }
+        
+        */
     ],
     "my": [
+        /*我的页面赞助
         {
             "bannerUrl": "https://wwt.lanzouw.com/yingshiku",
             "bannerImg": "https://5b0988e595225.cdn.sohucs.com/images/20190211/73a86526d1924fa0bc019cc82fbb8d94.png",  
@@ -39,15 +44,16 @@
             "bannerDesc": "分享回应"
 
         }
+        */
     ],
      "detail": [
+         /*播放页广告
         {
             "bannerUrl": "https://wwt.lanzouw.com/yingshiku",
             "bannerImg": "https://pic.imgdb.cn/item/62b97fa81d64b0706616c5c4.jpg",  
             "bannerDesc": "领红包"
 
         }
+        */
     ]
-
-
 }
